@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif; /* Fallback font */
+    margin: 20px;
+}
+
+.silkscreen-regular {
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 400;
+}
+
+.silkscreen-bold {
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 700;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item {
+    margin: 10px;
+}
+
+img, video {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.delete-button {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: 10px;
+    padding: 5px 10px;
+}
+
+.delete-button:hover {
+    background-color: darkred;
+}
